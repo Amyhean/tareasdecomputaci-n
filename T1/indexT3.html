@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <style>
+body{
+    background-color:#F2F2F2;
+}
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background-color: #610B0B;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #030303;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px rgb(12, 12, 12);
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;}
+#barrainferior{
+    width: 100px; 
+    height:40px;
+    margin-right: 20px;
+    float: right;
+    margin-top: -60px;
+}
+    </style>
+    <title>Amy Hernández T3</title>
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+            <ul class="menu">
+            <li><a href="./indexT3.html" target="_blank">Inicio</a></li>
+            <li><a href="#">Tareas</a>
+            <ol class="submenu" type="i">
+            <li><a href="./indexT1.html" target="_blank">Tarea 1</a></li>
+            <li><a href="./indexT2.html" target="_blank">Tarea 2</a></li>
+            </ol></li>
+            <li><a href="#ecuaciones">Ecuaciones</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+    <center>
+    <h1>Bienvenido a la página personal de Amy Hean<br>
+        Aquí podras encontrar trabajos que han sido realizados para la materia <i>"Computación ll"</i></h1>
+    </center>
+    <section>
+    <h1>
+        <a href="#ecuaciones">Ir a ecuaciones</a>
+    </h1>
+    <div id="ecuaciones">Ecuaciones</div>
+    </section>
+    <section></section>
+    <h1>
+      <a href="#ubicacion">Ubicación del plantel</a>
+    </h1>
+    <div id="ubicacion">
+        <center>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.264656749477!2d-99.00242418561903!3d19.35768984808904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce029fdbf99dd1%3A0xdea69e44b5e5cef!2sUACM%20Plantel%20Casa%20Libertad!5e0!3m2!1ses-419!2smx!4v1645328522851!5m2!1ses-419!2smx" width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </center>
+    </div>
+    </section>
+    <footer>
+        <nav class="navegacion">
+            <ul class="menu">
+            <li><a href="./indexT3.html" target="_blank">Inicio</a></li>
+            <li><a href="#">Tareas</a>
+            <ol class="submenu" type="i">
+            <li><a href="./indexT1.html" target="_blank">Tarea 1</a></li>
+            <li><a href="./indexT2.html" target="_blank">Tarea 2</a></li>
+            </ol>
+        </li>
+            </ul>
+            <img id="barrainferior" src="https://www.uacm.edu.mx/portals/_default/skins/wcga-uacm/images/logo.png" alt="logoUACM">
+        </nav>
+    </footer>
+
+
+
+</body>
+</html>

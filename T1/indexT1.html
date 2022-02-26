@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Amy Hernández T1</title>
+<style>
+body{
+    background-color: #F781F3;
+    text-align: center;
+    
+}
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: #fff;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #030303;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px rgb(12, 12, 12);
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+p {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Segoe UI';
+    color: aqua;
+}
+.logo{
+ text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: 'Gill Sans';
+    color: #29088A;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Tahoma';
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img src="https://www.uacm.edu.mx/portals/_default/skins/wcga-uacm/images/logoViva.png" alt="Logo UACM">
+        </div>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="./indexT3.html">Inicio</a></li>
+                <li><a href="#">Planteles de la UACM</a>
+               <!--si pongo la etiqueta y el * más el numero se multiplica la etiqueta por el-->
+               <!--Si le pongo el atributo type y le doy A se va ha hacer mayuscula, minuscula con a y tambien se puede en romano-->     
+               <ol class="submenu" type="i">
+                    <li>Casa Libertad</li>
+                    <li>San lorenzo tezonco</li>
+                    <li>Cuautepec</li>
+                    <li>Centro Historico</li>
+                    <li>Del valle</li>
+                </ol>
+                </li>
+                <li><a href="https://www.uacm.edu.mx/sitios/programas_centros " target="_blank">Investigación</a></li>
+                <li><a href="#">Página oficial de la universidad</a>
+                    <ul class="submenu" type="square" >
+                        <li><a href="https://www.uacm.edu.mx/" target="_blank">Ir a la pagina oficial de la UACM</a><br></li>
+                        <li><a href="https://www.uacm.edu.mx/Oferta_academica/CCyT" target="_blank">Oferta Academica</a><br></li>
+                        <li><a href="https://www.uacm.edu.mx/" target="_blank">Aspirantes</a><br></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr size="10" color="white">
+    <blockquote>Todos necesitamos en algun momento de nuestra vida palabras de motivacion que nos den el empujon que nos falta para arriesgarnos, levantarnos, querernos, cuidarnos, o asi de cliche como va a sonar: empezar desde cero.</blockquote>
+    <hr size="10" color="white"> 
+    <!--Linea divisoria con el size le cambiamos el tamaño y con width el ancho -->
+    <!--La etiqueta marquee mantiene en movimiento un texto-->
+    <marquee> <h1>Universidad autónoma de la ciudad de México Computación ll</h1></marquee>
+    
+        <h2>Plantel Casa Libertad</h2>
+        <h3>Alumna: Amizaday Hernández</h3>
+        <h4>Carrera: ISET</h4>
+   
+      
+        <a href="https://www.uacm.edu.mx/" target="_blank"><img src="./src/logo.png"></a><br>
+         <br><br>   
+    
+    <a href="https://es-la.facebook.com/UACM.edu.mx/" target="_blank"><img src="https://i.pinimg.com/originals/ce/c8/a6/cec8a6239de29acbfcfee0ccec995b9f.png" width="50" height="50"><br> Facebook de la Universidad</a><br>    
+    <br><br>   
+    <!--Los iframe sirven para agregar elementos como videos y mapas-->
+    <marquee><p>Videos sobre HTML</p></marquee> 
+        <iframe width="366" height="244" src="https://www.youtube.com/embed/kN1XP-Bef7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        <iframe width="366" height="244" src="https://www.youtube.com/embed/rbuYtrNUxg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
+        Computación II <br> <br> <br> 
+        
+        <img src="./src/Antena-02.gif"> 
+        
+        <img src="./src/Antena-18.gif" width="220" height="220">
+        <br>
+        <hr size="10" color="white">
+        <br> Fecha: 2 de febrero del 2022<br> 
+        <hr size="10" color="white">
+        <br>
+        <img height="244" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png">
+        <img  height="244" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png">
+        
+    
+</body>
+</html>
